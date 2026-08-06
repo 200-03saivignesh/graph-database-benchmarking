@@ -1,0 +1,8 @@
+| Component | Description |
+|---|---|
+| Dataset | cit-HepPh citation network with 100,000 relationships |
+| Data Loading Layer | Python scripts load the dataset into each graph database |
+| Database Layer | Neo4j, Memgraph, ArangoDB, and CognoDB |
+| Benchmark Layer | Executes lookup, traversal, and aggregation queries |
+| Measurement Layer | Calculates p50 and p95 latency |
+| Output Layer | Generates CSV results and performance graphs |
