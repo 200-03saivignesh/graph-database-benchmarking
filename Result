@@ -1,0 +1,9 @@
+## Assignment Implementation Overview
+
+This assignment was completed by creating a graph database benchmarking environment to compare the performance of multiple graph database platforms.
+
+First, a public graph dataset (cit-HepPh citation network) was selected and prepared. The dataset was then loaded into four different graph databases: Neo4j, Memgraph, ArangoDB, and CognoDB using custom Python scripts.
+
+After successfully loading the data, benchmark scripts were developed to execute different graph workloads, including point lookups, 1-hop, 2-hop, 3-hop traversals, and aggregation queries. Each query was executed multiple times, and performance metrics such as p50 and p95 latency were calculated.
+
+Finally, the collected results were stored, analyzed, and visualized to compare the performance characteristics of each graph database. The complete implementation, results, and documentation were uploaded to GitHub.
