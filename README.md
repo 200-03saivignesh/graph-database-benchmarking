@@ -121,6 +121,14 @@ graph-task/
 ├── .env
 ├── requirements.txt
 └── README.md
+
+## Key Findings
+
+- Neo4j achieved the lowest latency in this benchmark environment.
+- Memgraph provided graph traversal capabilities with higher latency under this setup.
+- ArangoDB and CognoDB showed consistent performance for traversal workloads.
+- Results may vary depending on hardware, network conditions, and cloud configuration.
+
 ## Conclusion
 
 The benchmarking experiment compares graph database performance under similar workloads using the same dataset and query patterns.
