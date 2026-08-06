@@ -1,0 +1,45 @@
+# Graph Database Benchmarking Project - Development Explanation
+
+## 1. Project Idea
+
+The purpose of this project was to compare the performance of different graph database platforms using the same graph dataset and identical query workloads.
+
+The main goal was to measure how different databases handle graph operations such as node lookup, relationship traversal, and aggregation queries.
+
+---
+
+## 2. Project Planning
+
+First, I selected a public graph dataset suitable for benchmarking.
+
+Dataset selected:
+
+- cit-HepPh (High Energy Physics Citation Network)
+
+The dataset represents citation relationships between research papers.
+
+For a fair comparison, the same dataset was used in all databases.
+
+---
+
+## 3. Technology Selection
+
+The following graph databases were selected:
+
+- Neo4j
+- Memgraph
+- ArangoDB
+- CognoDB
+
+Python was chosen as the programming language to automate:
+
+- Database connections
+- Data loading
+- Benchmark execution
+- Result processing
+
+---
+
+## 4. Project Setup
+
+Created a Python project environment:
