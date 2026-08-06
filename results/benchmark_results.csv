@@ -1,0 +1,21 @@
+Database,Query,p50_ms,p95_ms
+Neo4j,Point Lookup,62.23,78.09
+Neo4j,1-Hop Traversal,62.38,70.01
+Neo4j,2-Hop Traversal,62.34,75.91
+Neo4j,3-Hop Traversal,62.39,70.16
+Neo4j,Aggregation,55.06,59.09
+Memgraph,Point Lookup,1085.27,1093.82
+Memgraph,1-Hop Traversal,1082.40,1088.73
+Memgraph,2-Hop Traversal,1087.29,1094.80
+Memgraph,3-Hop Traversal,1084.63,1092.60
+Memgraph,Aggregation,1095.15,1099.68
+ArangoDB,Point Lookup,264.73,272.98
+ArangoDB,1-Hop Traversal,265.47,318.99
+ArangoDB,2-Hop Traversal,265.76,307.14
+ArangoDB,3-Hop Traversal,265.20,307.11
+ArangoDB,Aggregation,279.35,403.38
+CognoDB,Point Lookup,257.48,269.47
+CognoDB,1-Hop Traversal,261.22,263.45
+CognoDB,2-Hop Traversal,261.01,267.33
+CognoDB,3-Hop Traversal,261.17,273.71
+CognoDB,Aggregation,260.95,264.55
